@@ -28,16 +28,18 @@ ffmpeg -i badapple.mp4 -vf "fps=540,format=rgb24" in_frames/%08d.png
 # 합성 (영상+오디오)
 ffmpeg -r 540 -i out_frames/%08d.png -i badapple.mp4 -map 0:v:0 -map 1:a:0 -c:v hevc_nvenc -cq 19 -preset p5 -pix_fmt p010le -c:a copy output_hevc_audio.mp4
 
-📂 결과물
+---
+
+- 📂 결과물
 output_hevc_audio.mp4 → 최종 FHD 540fps HEVC 영상
 
 GitHub LFS 또는 Release 첨부로 배포
 
-⚠️ 주의
+- ⚠️ 주의
 프레임 수가 많아 (11만+) 진행률이 천천히 올라갑니다.
 
 540fps는 테스트/연구 목적입니다. 일반 재생기에서는 정상 재생이 어려울 수 있습니다.
 
-📜 License
+- 📜 License
 원본 Bad Apple!! 영상은 원작자에게 저작권이 있습니다.
 본 프로젝트는 기술적 연구 및 팬 프로젝트 목적으로만 공유합니다.
