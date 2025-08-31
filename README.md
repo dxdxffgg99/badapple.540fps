@@ -1,4 +1,4 @@
-# 🎶 Bad Apple!! — 540fps 8K Upscale Project
+# 🎶 Bad Apple!! — 540fps Upscale Project
 
 [download](https://github.com/dxdxffgg99/badapple.540fps/releases/tag/v1.0)
 
