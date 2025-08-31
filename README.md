@@ -20,7 +20,8 @@
 
 ### 1. 의존성
 - [FFmpeg](https://ffmpeg.org/)  
-- NVIDIA GPU (예: RTX 4060) 또는 CPU  
+- NVIDIA GPU (4060)
+- INTEL CPU (i9 14900k)
 
 # 프레임 추출
 ffmpeg -i badapple.mp4 -vf "fps=540,format=rgb24" in_frames/%08d.png
