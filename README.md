@@ -18,7 +18,7 @@
 
 ## 🛠️ 실행 방법
 
-### 1. 의존성
+### 1. 의존성 (요구사항 아님)
 - [FFmpeg](https://ffmpeg.org/)  
 - NVIDIA GPU (4060)
 - INTEL CPU (i9 14900k)
