@@ -3,7 +3,7 @@
 [download](https://github.com/dxdxffgg99/badapple.540fps/releases/tag/v1.0)
 
 이 저장소는 **Bad Apple!!** 영상을  
-👉 **540fps**, **8K 해상도**, **HEVC(H.265)** 로 업스케일링한 결과물을 담고 있습니다.
+👉 **540fps**, **HEVC(H.265)** 로 업스케일링한 결과물을 담고 있습니다.
 
 ---
 
@@ -22,6 +22,7 @@
 - [FFmpeg](https://ffmpeg.org/)  
 - NVIDIA GPU (4060)
 - INTEL CPU (i9 14900k)
+- mezz
 
 # 프레임 추출
 ffmpeg -i badapple.mp4 -vf "fps=540,format=rgb24" in_frames/%08d.png
